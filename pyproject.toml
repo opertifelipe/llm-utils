@@ -20,6 +20,7 @@ dependencies = [
     "jupyter>=1.1.1",
     "notebook>=7.2.2",
     "langchain-ollama>=0.2.0",
+    "fastembed>=0.4.2",
 ]
 
 [build-system]

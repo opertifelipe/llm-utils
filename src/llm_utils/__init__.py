@@ -1,2 +1,2 @@
-def hello() -> str:
-    return "Hello from llm-utils!"
+from dotenv import load_dotenv
+load_dotenv()
