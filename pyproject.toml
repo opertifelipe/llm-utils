@@ -21,7 +21,11 @@ dependencies = [
     "notebook>=7.2.2",
     "langchain-ollama>=0.2.0",
     "fastembed>=0.4.2",
+    "typer>=0.15.1",
 ]
+
+[project.scripts]
+llm-utils = "llm_utils.cli.main:app"
 
 [build-system]
 requires = ["hatchling"]
